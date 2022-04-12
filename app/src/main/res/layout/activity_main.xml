@@ -8,20 +8,20 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="135"
-        android:layout_height="30"
-        android:layout_marginTop="26dp"
-        android:layout_marginEnd="29dp"
+        android:layout_width="135dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="68dp"
         android:text="Nombre de cas en 24h"
         app:layout_constraintEnd_toStartOf="@+id/tvConf"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <TextView
         android:id="@+id/tvDate"
-        android:layout_width="70"
-        android:layout_height="30"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
         android:layout_marginTop="136dp"
-        android:layout_marginEnd="44dp"
+        android:layout_marginEnd="120dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
@@ -29,19 +29,19 @@
     <TextView
         android:id="@+id/tvHosp"
         android:layout_width="70dp"
-        android:layout_height="30"
+        android:layout_height="30dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="44dp"
+        android:layout_marginEnd="120dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvConf" />
 
     <TextView
         android:id="@+id/tvConf"
-        android:layout_width="70"
-        android:layout_height="30"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="44dp"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="120dp"
         android:text="TextView"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,20 +70,20 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="135"
-        android:layout_height="30"
-        android:layout_marginTop="137dp"
-        android:layout_marginEnd="29dp"
+        android:layout_width="135dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="68dp"
         android:text="A la date du "
         app:layout_constraintEnd_toStartOf="@+id/tvDate"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="135"
-        android:layout_height="30"
-        android:layout_marginTop="41dp"
-        android:layout_marginEnd="29dp"
+        android:layout_width="135dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="68dp"
         android:text="Nombre d'hospitalisés"
         app:layout_constraintEnd_toStartOf="@+id/tvHosp"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
